@@ -13,3 +13,5 @@ Skin cancer is one of the most common and potentially deadly forms of cancer, ma
 1. Run PreProcessing.ipynb to download the data and process it
 2. Run each of the "Basic" programs to get the baseline models for our data
 3. Run the model "multi_model" notebook for the full deep learning model using both MLP and CNN models, using both metadata and image data.
+
+For clarification the image models are trained with just a portion of the dataset in order to have an equal number of positive and negative observations. For the final submission we plan to use data augmentation for this so that we can use more of our data.

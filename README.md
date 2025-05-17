@@ -30,7 +30,6 @@ This project builds and evaluates multiple deep learning models for classifying 
 - `subset5000-unbalancedval.ipynb` – Trained on balanced data, validated on unbalanced data.
 - `subset5000-aug.ipynb` – Includes image data augmentation.
 - `subset5000-unbalanced.ipynb` – Trained and validated on unbalanced data.
-- `subset5000-unbalanced-weighted.ipynb` – Uses class weighting to address imbalance.
 - `multi_model.ipynb` – Final model integrating image and metadata inputs.
 - `TESTsubset5000-aug-classesTEST.ipynb` – Multiclass classification with data augmentation.
 - `requirements.txt` – List of required Python packages.

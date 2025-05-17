@@ -37,6 +37,7 @@ This project builds and evaluates multiple deep learning models for classifying 
 - `subset5000-metadata.ipynb` – Implemented metadata in training
 - `multiclass-froze.ipynb` – Split malignant diagnoses into multiple categories for multiclass classification (no unfreezing base model)
 - `multiclass-withunfreeze.ipynb` – Multiclass training with unfreezing base model
+- `model_5000_aug.keras` – Final model with the best results (augmentation with no unfreezing)
 - `requirements.txt` – List of required Python packages.
 
 ## 🛠 Setup Instructions

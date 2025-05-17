@@ -78,13 +78,11 @@ Balanced/Unbalanced: Trained with different data distributions
 
 Augmented: Includes random flip, rotation, brightness changes, etc.
 
-Transfer Learning: ResNet50 pre-trained on ImageNet
-
 Metadata Fusion: Combines image features with patient metadata
 
 Multiclass Classification: Adds support for multiple lesion types
 
 ## Results Summary
-All models are evaluated using confusion matrices and ROC curves. The final integrated model with ResNet50 and metadata inputs achieved the best results, demonstrating the value of multimodal learning for skin cancer detection.
+All models are evaluated using confusion matrices, ROC curves, and classification reports (precision, recall, accuracy, f1, etc). No model had great results, but the best results came from `subset5000-aug-no-unfreeze.ipynb` which had data augmentation without unfreezing base model (MobileNetV2).
 
 ## This project is for academic use at AIT Budapest.

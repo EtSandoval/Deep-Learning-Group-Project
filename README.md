@@ -26,12 +26,17 @@ This project builds and evaluates multiple deep learning models for classifying 
 - `Basic - Metadata MLP Baseline.ipynb` – Simple MLP model using metadata only.
 - `Basic - Metadata Linear Regression Baseline.ipynb` – Linear model using metadata only.
 - `Basic - Image CNN Baseline.ipynb` – Simple CNN for image-based classification.
-- `subset5000.ipynb` – CNN model with balanced training and evaluation datasets.
+- `multi_model.ipynb` – Custom model with no pretrained base model
+- `subset5000.ipynb` – Model with MobileNetV2 as base model and balanced train and val data (5000 from each class)
+- `subset10000.ipynb` – Model with 10000 of each class instead of 5000
 - `subset5000-unbalancedval.ipynb` – Trained on balanced data, validated on unbalanced data.
 - `subset5000-aug.ipynb` – Includes image data augmentation.
+- `subset5000-aug-no-unfreeze.ipynb` – Includes image data augmentation without unfreezing base model
+- `subset5000-RESN50.ipynb` – Using RESN50 as base model instead of MobileNetV2
 - `subset5000-unbalanced.ipynb` – Trained and validated on unbalanced data.
-- `multi_model.ipynb` – Final model integrating image and metadata inputs.
-- `TESTsubset5000-aug-classesTEST.ipynb` – Multiclass classification with data augmentation.
+- `subset5000-metadata.ipynb` – Implemented metadata in training
+- `multiclass-froze.ipynb` – Split malignant diagnoses into multiple categories for multiclass classification (no unfreezing base model)
+- `multiclass-withunfreeze.ipynb` – Multiclass training with unfreezing base model
 - `requirements.txt` – List of required Python packages.
 
 ## 🛠 Setup Instructions

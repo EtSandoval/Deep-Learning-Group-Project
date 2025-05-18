@@ -58,6 +58,8 @@ Open and run notebooks in the following recommended order:
 
 PreProcessing.ipynb
 
+metadata_splits (2).ipynb
+
 Choose baseline models from the "Basic - ..." notebooks
 
 Proceed to subset5000... variants and multi_model.ipynb

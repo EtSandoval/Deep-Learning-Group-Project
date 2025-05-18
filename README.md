@@ -56,9 +56,9 @@ jupyter notebook
 
 Open and run notebooks in the following recommended order:
 
-PreProcessing.ipynb
+PreProcessing.ipynb - for full metadata and image files
 
-metadata_splits (2).ipynb
+metadata_splits (2).ipynb  - for split metadata files
 
 Choose baseline models from the "Basic - ..." notebooks
 
